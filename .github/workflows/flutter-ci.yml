@@ -18,7 +18,6 @@ on:
       - "flatpak/**"
 
 #权限
-permissions: write-all
 jobs:
   pages:
     runs-on: ubuntu-latest
