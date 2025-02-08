@@ -16,15 +16,11 @@ on:
       - "res/**"
       - "appimage/**"
       - "flatpak/**"
-
-#权限
 jobs:
   pages:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      issues: write
-  #编译完成后是否上传
   run-ci:
     uses: ./.github/workflows/flutter-build.yml
     with:
