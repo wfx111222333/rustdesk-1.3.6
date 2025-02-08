@@ -18,7 +18,7 @@ on:
       - "flatpak/**"
 
 #权限
-permissions: write
+permissions: write-all
 jobs:
   #编译完成后是否上传
   run-ci:
