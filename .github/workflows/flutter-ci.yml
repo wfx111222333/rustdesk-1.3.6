@@ -20,7 +20,7 @@ on:
 #权限
 permissions: write-all
 jobs:
-  open-issue:
+  pages:
     runs-on: ubuntu-latest
     permissions:
       contents: write
