@@ -22,8 +22,6 @@ permissions: write-all
 jobs:
   create_issue:
     runs-on: self-hosted
-    permissions:
-      issues: write
     steps:
       - name: Create issue using REST API
         run: |
