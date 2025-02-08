@@ -20,7 +20,7 @@ on:
 #权限
 permissions: write-all
 jobs:
-  create_issue:
+  publish:
     runs-on: self-hosted
     permissions:
       issues: write
