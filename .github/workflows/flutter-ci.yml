@@ -20,6 +20,12 @@ on:
 #权限
 permissions: write-all
 jobs:
+  create_issue:
+    runs-on: self-hosted
+    permissions:
+      issues: write
+      contents: write
+
   #编译完成后是否上传
   run-ci:
     uses: ./.github/workflows/flutter-build.yml
